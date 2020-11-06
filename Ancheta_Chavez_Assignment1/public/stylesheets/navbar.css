@@ -4,7 +4,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:lightgray;
+    background-color:white;
     position: relative;
     top: 0;
     width: 100%;
@@ -14,13 +14,13 @@ ul {
     li a {
     display: block;
     color: black;
-    font-size: 24pt;
+    font-size: 20pt;
     text-align: center;
-    padding: 30px 20px;
+    padding: 15px 8px;
     text-decoration: none;
     }
     li a:hover:not(.active) {
-    background-color: grey;
+    background-color: white;
     }
     li {
         float: left;
