@@ -1,0 +1,30 @@
+/* I looked at w3 schools and figured out how to make a nav bar to make the site look sick, here's the CSS for it. */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgray;
+    position: relative;
+    top: 0;
+    width: 100%;
+    }
+
+
+    li a {
+    display: block;
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    }
+    li a:hover:not(.active) {
+    background-color: grey;
+    }
+    li {
+        float: left;
+        }
+    .active {
+        background-color: pink;
+    }
